@@ -1,0 +1,22 @@
+package template;
+
+public abstract class DisplayArticleTemplate {
+    protected Article article;
+
+    public DisplayArticleTemplate(Article article) {
+        this.article = article;
+    }
+
+    public final void display(){
+        // 순서대로 실행
+        title();
+        content();
+        footer();
+    }
+
+    protected abstract void title();
+
+    protected abstract void content();
+
+    protected abstract void footer();
+}
