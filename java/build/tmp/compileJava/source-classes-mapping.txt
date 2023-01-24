@@ -1,0 +1,12 @@
+iterator/ArrayIterator.java
+ iterator.ArrayIterator
+iterator/IteratorApplication.java
+ iterator.IteratorApplication
+iterator/Item.java
+ iterator.Item
+iterator/Iterator.java
+ iterator.Iterator
+iterator/Array.java
+ iterator.Array
+iterator/Aggregator.java
+ iterator.Aggregator
