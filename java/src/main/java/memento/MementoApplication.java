@@ -36,5 +36,7 @@ public class MementoApplication {
                 }
             }
         }
+
+        System.out.println("Walker's path: " + walker);
     }
 }
