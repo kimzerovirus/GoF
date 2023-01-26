@@ -13,7 +13,7 @@ public class MementoApplication {
 
     public static void main(String[] args) {
         var walker = new Walker(0, 0, 0, 0);
-        Action[] actions = {Action.UP, Action.RIGHT, Action.DOWN, Action.LEFT};
+        Walker.Action[] actions = {Walker.Action.UP, Walker.Action.RIGHT, Walker.Action.DOWN, Walker.Action.LEFT};
         Random random = new Random();
         double minDistance = Double.MAX_VALUE;
         Walker.Memento memento = null;
