@@ -7,7 +7,7 @@ public abstract class CheckBox {
         this.isChecked = isChecked;
     }
 
-    void setChecked(boolean isChecked) {
+    public void setChecked(boolean isChecked) {
         this.isChecked = isChecked;
         render();
     }
